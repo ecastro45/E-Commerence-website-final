@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>EC Hardware</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styleshuw111.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <!--<a class="navbar-brand" href="#">Carousel</a>-->
+         <img src="imgs/Logo3.png" width="40" height="30" class="ml-5 mr-5">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="menutext" href="#shoppage">Shop <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="menutext" href="#contactpage">Contact</a>
+          </li>
+<!--
+          <li class="nav-item">
+            <a class="nav-link" id="menutext" href="#">Contact</a>
+          </li>
+-->
+        </ul>
+
+      <!-- Cart Logo -->
+        <img src="imgs/cart.png" width="40" height="30" class="ml-5 mr-3 mt-1">
+      <!-- /Cart Logo -->
+
+      <!-- Shopping Cart Logo -->
+      <form name="_xclick" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="mt-1">
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="business" value="">
+        <input type="image" src="https://www.paypal.com/en_US/i/btn/view_cart.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+        <input type="hidden" name="display" value="1">
+      </form>
+      <!-- /Shopping Cart Logo -->
+
+      </div>
+
+    </nav>
+
+    <!-- /Navbar -->
+
+    <!-- Carousel -->
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="first-slide" src="imgs/Intel2-bw.jpg" alt="Intel Processors">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-left">
+              <h1 class="mb-3">Intel i7 Processors</h1>
+              <p>Experience fantastic entertainment and gaming, seamless 4K Ultra HD, and 360 video– all with the lightning speed data transfers of Thunderbolt™ 3 technology.</p>
+              <p><a class="btn1 btn-lg btn-primary" href="https://www.intel.com/content/www/us/en/products/processors/core/i7-processors.html" target="_blank" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide" src="imgs/motherboardsb-w.jpg" alt="Asus Motherboards">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="mb-3">ASUS Motherboard lineup!</h1>
+              <p>ASUS Prime is the next evolution of the ASUS motherboard, born of a pedigree that stretches back to 1989.</p>
+              <p><a class="btn1 btn-lg btn-primary" href="https://www.asus.com/us/Motherboards/PRIME-Z270-A/" target="_blank" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide" src="imgs/samsungssdb-w.jpg" width="100%" alt="Corsair RAM">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-right">
+              <h1 class="mb-3">Samsung Solid State HD.</h1>
+              <p>Samsung has designed the 850 EVO in multiple form factors to fit a variety of computers.</p>
+              <p><a class="btn1 btn-lg btn-primary" href="http://www.samsung.com/semiconductor/minisite/ssd/product/consumer/850evo.html" target="_blank" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <video controls autoplay loop muted width="100%">
+              <source src="imgs/intel-i7-demo" type="video/mp4">
+              <source src="imgs/intel-i7-demo.mp4" type="video/ogg">
+              Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- /Carousel -->
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing" id="shoppage">
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider" >
+
+      <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">ASUS PRIME Z270-A</h2> <br> <p><span class="text2">LGA1151 DDR4.</span></p>
+          <p class="lead">ASUS PRIME Z270-A LGA1151 DDR4 DP HDMI DVI M.2 USB 3.1 Z270 ATX Motherboard. Get performance, efficiency, digital power, fan control and even networking and audio tuning tailored for you.</p>
+        </div>
+        <div class="col-md-5"><!-- Transitions -->
+          <div class="photo">
+              <img class="featurette-image img-fluid mx-auto" src="imgs/motherboard.JPG" alt="MotherBoard">
+            <div class="photo-overlay">
+                <p class="imgtext">Check out more at ASUS.com!</p>
+                <a href="https://www.asus.com/us/Motherboards/PRIME-Z270-A/" class="button" target="_blank">ASUS.com</a>
+            </div>
+          </div><!-- /Transitions -->
+
+          <!-- PayPal Shopping Cart Button-->
+          <form name="_xclick" target="paypal" action="" method="post" class="mt-5">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="business" value="">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="item_name" value="HTML book">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="image" src="http://www.paypal.com/en_US/i/btn/sc-but-01.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" class="paypal">
+            <input type="hidden" name="add" value="1">
+           </form>
+           <!-- /PayPal Shopping Cart Button-->
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 push-md-5">
+            <h2 class="featurette-heading">Intel Core i7-6700</h2> <p><span class="text2">8M Skylake Quad-Core 3.4 GHz LGA 1151.</span></p>
+          <p class="lead">Equipped with Intel® Turbo Boost Technology 2.01 2, your computer will have the unprecedented power and responsiveness to help your productivity soar.  Experience fantastic entertainment and gaming, seamless 4K Ultra HD, and 360 video– all with the lightning speed data transfers of Thunderbolt™ 3 technology.</p>
+        </div>
+        <div class="col-md-5 pull-md-7"><!-- Transitions -->
+         <div class="photo">
+          <img class="featurette-image img-fluid mx-auto" src="imgs/cpu.JPG" alt="Intel i7">
+              <div class="photo-overlay">
+                  <p class="imgtext">Check out more at intel.com!</p>
+                  <a href="https://www.intel.com/content/www/us/en/products/processors/core/i7-processors.html" class="button" target="_blank">Intel.com</a>
+              </div>
+          </div><!-- /Transitions -->
+
+          <!-- PayPal Shopping Cart Button-->
+          <form name="_xclick" target="paypal" action="" method="post" class="mt-5">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="business" value="">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="item_name" value="HTML book">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="image" src="http://www.paypal.com/en_US/i/btn/sc-but-01.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" class="paypal">
+            <input type="hidden" name="add" value="1">
+           </form>
+           <!-- /PayPal Shopping Cart Button-->
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">CORSAIR Vengeance LPX</h2> <p><span class="text2">16GB (2 x 8GB) 288-Pin DDR4 SDRAM.</span></p>
+          <p class="lead">Designed for high-performance overclocking on Intel X99 and 100 Series motherboards. The DDR4 form factor is optimized for the latest Intel X99 and 100 Series motherboards and offers higher frequencies, greater bandwidth, and lower power consumption than DDR3 modules.</p>
+        </div>
+        <div class="col-md-5"><!-- Transitions -->
+         <div class="photo">
+          <img class="featurette-image img-fluid mx-auto" src="imgs/ram.JPG" alt="Corsair RAM">
+              <div class="photo-overlay">
+                  <p class="imgtext">Check out more at Corsair.com!</p>
+                  <a href="http://www.corsair.com/en-us/vengeance-lpx-16gb-2x8gb-ddr4-dram-3000mhz-c15-memory-kit-black-cmk16gx4m2b3000c15" class="button" target="_blank">Corsair.com</a>
+              </div>
+          </div><!-- /Transitions -->
+
+          <!-- PayPal Shopping Cart Button-->
+          <form name="_xclick" target="paypal" action="" method="post" class="mt-5">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="business" value="">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="item_name" value="HTML book">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="image" src="http://www.paypal.com/en_US/i/btn/sc-but-01.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" class="paypal">
+            <input type="hidden" name="add" value="1">
+           </form>
+           <!-- /PayPal Shopping Cart Button-->
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 push-md-5">
+            <h2 class="featurette-heading">Samsung SSD 850 EVO</h2> <p><span class="text2">SSD Solid State Disk 2.5-inch powered by 3D V-Nand.</span></p>
+          <p class="lead">More variety gives you more options that are just right for your needs. Samsung offers the 850 EVO in a full range of capacities up to 4 TB* – the industry’s first 4 TB SSD for client PCs, which enables you to store more data on a single SSD.</p>
+        </div>
+        <div class="col-md-5 pull-md-7"><!-- Transitions -->
+         <div class="photo">
+          <img class="featurette-image img-fluid mx-auto" src="imgs/ssd.JPG" alt="Samsung Solid State">
+              <div class="photo-overlay">
+                  <p class="imgtext">Check out more at Samsung.com!</p>
+                  <a href="http://www.samsung.com/semiconductor/minisite/ssd/product/consumer/850evo.html" class="button" target="_blank">Samsung.com</a>
+              </div>
+          </div><!-- /Transitions -->
+
+          <!-- PayPal Shopping Cart Button-->
+          <form name="_xclick" target="paypal" action="" method="post" class="mt-5">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="business" value="">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="item_name" value="HTML book">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="image" src="http://www.paypal.com/en_US/i/btn/sc-but-01.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" class="paypal">
+            <input type="hidden" name="add" value="1">
+           </form>
+           <!-- /PayPal Shopping Cart Button-->
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">EVGA SuperNOVA 850 G2</h2> <p><span class="text2">80+ GOLD 850W Fully Modular EVGA ECO.</span></p>
+          <p class="lead">Unleash the next generation in power with the EVGA SuperNOVA 850/750 G2 Power Supplies. Based on the award winning G2 series Power Supplies from EVGA, these PSU’s feature 80 PLUS Gold rated efficiency, and clean, continuous power to every component.</p>
+        </div>
+        <div class="col-md-5"><!-- Transitions -->
+         <div class="photo">
+          <img class="featurette-image img-fluid mx-auto" src="imgs/power.JPG" alt="EVGA GPU">
+              <div class="photo-overlay">
+                  <p class="imgtext">Check out more at EVGA.com!</p>
+                  <a href="https://www.evga.com/articles/00823/" class="button" target="_blank">EVGA.com</a>
+              </div>
+          </div><!-- /Transitions -->
+
+          <!-- PayPal Shopping Cart Button-->
+          <form name="_xclick" target="paypal" action="" method="post" class="mt-5">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="business" value="">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="item_name" value="HTML book">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="image" src="http://www.paypal.com/en_US/i/btn/sc-but-01.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" class="paypal">
+            <input type="hidden" name="add" value="1">
+           </form>
+           <!-- /PayPal Shopping Cart Button-->
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 push-md-5">
+            <h2 class="featurette-heading">DEEPCOOL GAMMAXX</h2> <p><span class="text2">CPU Cooler 4 Heatpipes 120mm PWM Fan.</span></p>
+          <p class="lead">Being one of Deepcool's superstar products is not easy. Gammaxx 400 has proven to be one of the most recommended CPU coolers for its excellent heat dissipation performance, plus blue LED light as awesome appearance.</p>
+        </div>
+        <div class="col-md-5 pull-md-7"><!-- Transitions -->
+         <div class="photo">
+          <img class="featurette-image img-fluid mx-auto" src="imgs/cooler.JPG" alt="CPU Cooler">
+              <div class="photo-overlay">
+                  <p class="imgtext">Check out more at Deepcool.com!</p>
+                  <a href="http://www.deepcool.com/product/cpucooler/2013-12/7_487.shtml" class="button" target="_blank">Deepcool.com</a>
+              </div>
+          </div><!-- /Transitions -->
+
+          <!-- PayPal Shopping Cart Button-->
+          <form name="_xclick" target="paypal" action="" method="post" class="mt-5">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="business" value="">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="item_name" value="HTML book">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="image" src="http://www.paypal.com/en_US/i/btn/sc-but-01.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" class="paypal">
+            <input type="hidden" name="add" value="1">
+           </form>
+           <!-- /PayPal Shopping Cart Button-->
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+      <!-- 4 Rows of Social Media Icons -->
+      <div class="row ml-5 mb-5" id="contactpage">
+        <div class="col-lg-3">
+          <a href="https://www.facebook.com/edwin.castro3" target="_blank"><img class="rounded-circle" src="imgs/facebook3.gif" alt="Facebook Logo" width="150" height="150"></a>
+          <h2>facebook</h2>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <a href="https://twitter.com/ecastro77" target="_blank"><img class="rounded-circle" src="imgs/twitter3.png" alt="Twitter Logo" width="150" height="150"></a>
+          <h2>twitter</h2>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <a href="https://www.instagram.com/ed_102/" target="_blank"><img class="rounded-circle" src="imgs/instagram2.png" alt="Instagram Logo" width="150" height="150"></a>
+          <h2>instagram</h2>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <a href="https://www.youtube.com/watch?v=EhaB1dqYv_I&t=279s" target="_blank"><img class="rounded-circle" src="imgs/YouTube2.png" alt="Youtube Logo" width="150" height="150"></a>
+          <h2>youtube</h2>
+        </div>
+      </div><!-- /.row -->
+
+      <!-- 3 Contact Logos -->
+      <div class="row ml-5 mb-5 mr-4">
+        <div class="col-lg-4">
+          <a href="mailto:castroredwin@gmail.com" target="_blank"><img class="rounded-circle" src="imgs/email2.png" alt="Facebook Logo" width="150" height="150"></a>
+          <h2>email</h2>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-4">
+          <a href="https://github.com/ecastro45" target="_blank"><img class="rounded-circle" src="imgs/github2.png" alt="Twitter Logo" width="150" height="150"></a>
+          <h2>github</h2>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-4">
+          <a href="tel:347-848-8215" target="_blank"><img class="rounded-circle" src="imgs/phone2.jpg" alt="Instagram Logo" width="150" height="150"></a>
+          <h2>phone</h2>
+        </div>
+      </div><!-- /.row -->
+
+      <!-- FOOTER -->
+      <footer class="pt-5 pb-5 pl-5 pr-5">
+        <p class="float-right"><a href="#" class="b2t">Back to top</a></p>
+        <p class="nameyear">&copy; 2017 Edwin Castro, Inc. &middot; <a href="#" class="pri">Privacy</a> &middot; <a href="#" class="terms">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
